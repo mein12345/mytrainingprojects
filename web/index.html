@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typewrite animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: rgb(90, 82, 82);
+            box-sizing: border-box;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            display: inline-flex;
+        }
+        .child{
+            font-size: 40px;
+            color: white;
+        }
+        ul{
+            display:  ;
+        }
+        li{
+            list-style: none;
+            font-size: 40px;
+            color: rgb(218, 103, 103);
+        }
+        span::after{
+            content: "";
+            height: 100%;
+            width: 100%;
+            border: 2px solid rgb(218, 103, 103);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">I'm a </div>
+        <ul>
+            <li><span>Programmer</span></li>
+            <li><span>developer</span></li>
+            <li><span>Designer</span></li>
+            <li><span>student</span></li>
+        </ul>
+    </div>
+    <script src="js/learn basic.js" ></script>
+
+</body>
+</html>
